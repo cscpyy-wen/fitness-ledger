@@ -1,0 +1,18 @@
+# Release artifacts and their machine-verifiable evidence must retain exact
+# bytes across Windows checkouts; line-ending conversion would invalidate hashes.
+*.apk -text
+交付/*-release-evidence/** -text
+# Archived evidence/checksum bytes remain immutable after leaving the current
+# install surface. Markdown outside evidence keeps normal text handling.
+交付/历史版本/*-release-evidence/** -text
+# Top-level documents are byte-compared with their signed evidence copies.
+# Keep archived document bundles byte-identical as well.
+交付/安装说明.md -text
+交付/验收报告.md -text
+交付/SHA256SUMS.txt -text
+交付/历史版本/*-delivery-documents/** -text
+交付/历史版本/*-delivery/** -text
+# Bundled model assets are verified by exact size/SHA-256 during every build.
+# Treat even CSV/JSON/license text as byte-preserving artifacts across OSes.
+app/src/main/assets/models/** -text -diff
+app/src/main/assets/licenses/** -text -diff

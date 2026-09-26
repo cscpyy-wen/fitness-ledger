@@ -1,0 +1,87 @@
+Xiaomi Probe / 小米体重验证
+Module: xiaomi-probe
+Application ID: com.personal.fitnessledger.xiaomiprobe
+
+LICENSE SCOPE
+
+This independent module is free software: you can redistribute it and/or
+modify it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or (at your
+option) any later version.
+
+This module is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
+more details.
+
+The complete, unmodified GNU GPL version 3 standard text is included in
+LICENSE. The "or later" permission above applies to this module's source.
+The text was obtained from the Free Software Foundation's official page:
+https://www.gnu.org/licenses/gpl-3.0.txt
+
+This module-level statement does not relicense the repository's main app,
+shared build infrastructure, unrelated files, or third-party dependencies.
+Their respective license terms continue to apply. Copyright in referenced
+works and third-party components remains with the respective holders.
+
+REFERENCE ACKNOWLEDGMENTS
+
+1. Misty02600 / mi-fitness-python
+   Author credited by the pinned project's metadata: Misty02600.
+   Revision: c8aef5910b4a0c50392992c86c28091a995582cc
+   Source and upstream GPL version 3 license text:
+   https://github.com/Misty02600/mi-fitness-python/tree/c8aef5910b4a0c50392992c86c28091a995582cc
+   https://github.com/Misty02600/mi-fitness-python/blob/c8aef5910b4a0c50392992c86c28091a995582cc/LICENSE
+
+   QR login, cryptographic wire behavior, and STS exchange references:
+   src/mi_fitness/auth/qr.py
+   src/mi_fitness/crypto.py
+   src/mi_fitness/auth/sts.py
+
+   The local Kotlin/Android implementation uses these protocol references.
+   Local changes include restricted HTTPS destinations, bounded payloads,
+   strict decoding, transient sessions, generic errors without credential
+   logging, cancellation, and validation of original weight records.
+   This module does not distribute or embed that Python package.
+
+2. Mori-17 / huami-health-bridge
+   File: verify_xiaomi_full_import.py
+   Revision inspected: f546734b6d81ace61c7309a3a6d659d5881336f1
+   https://github.com/Mori-17/huami-health-bridge/blob/f546734b6d81ace61c7309a3a6d659d5881336f1/verify_xiaomi_full_import.py#L57-L73
+
+   Functional reference for the current-account, read-only
+   POST /app/v1/data/get_fitness_data_by_time endpoint, time-window fields,
+   and result.data_list records. The caller in this module requests only
+   key=weight. No relatives endpoint or write/import operation is used.
+
+3. shkyyy18 / mi_fitness_data_bridge
+   File: src/mi_fitness_mcp/adapters/mi_fitness_cloud.py
+   Revision: 67231fb741278c25c2fd9ac9c32c9b57afea765d
+   https://github.com/shkyyy18/mi_fitness_data_bridge/blob/67231fb741278c25c2fd9ac9c32c9b57afea765d/src/mi_fitness_mcp/adapters/mi_fitness_cloud.py
+
+   Functional reference for original weight/body_fat_rate/moisture_rate
+   field meanings. The local WeightRecords parser and tests were written
+   for this module's normalized Map input and validation requirements.
+
+For references 2 and 3, only interface behavior and data shape were used;
+no AGPL implementation code was copied or included as a runtime dependency.
+These acknowledgments do not change the upstream authors' licenses.
+
+BOUNDARIES
+
+This is an unofficial experimental interoperability tool. Xiaomi names and
+device names identify the services being tested; no affiliation, approval,
+official API access, or S400 compatibility certification is claimed.
+
+The session may carry broader account authority than this tool exercises.
+It is not an official OAuth grant limited to weight data. Account login
+and verification are performed by the user in Xiaomi's official page.
+
+Credentials and results are not persisted by this tool. Clearing this
+tool's session does not sign out the browser or promise server-side token
+revocation. No background synchronization or main-ledger integration is
+provided by this module.
+
+Verification of the actual account flow, device provenance, completeness,
+and agreement with Xiaomi reports remains separate from local automated
+tests. See README.md for the current verification status.

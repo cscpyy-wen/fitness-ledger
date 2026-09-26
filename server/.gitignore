@@ -1,0 +1,6 @@
+# Local runtime state and Docker Compose secret material.
+data/
+secrets/
+*.db
+*.db-shm
+*.db-wal

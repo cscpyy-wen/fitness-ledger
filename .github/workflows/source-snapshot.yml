@@ -1,0 +1,21 @@
+name: Source snapshot checks
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout publication snapshot
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4, pinned
+        with:
+          persist-credentials: false
+      - name: Check original-source hashes and user-guide links
+        run: python3 scripts/verify_github_snapshot.py

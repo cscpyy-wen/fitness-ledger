@@ -1,0 +1,1174 @@
+{
+  "format": "fitness-ledger-github-source-snapshot-v1",
+  "version": "0.6.0-alpha11",
+  "originalBuildCommit": "2979188aa531d68142d18684557a51a40d93dc78",
+  "originalSignedTagObject": "3f83023ec92a3523abde6215605ff39e164f49d5",
+  "apkSha256": "4698e6d966f8a950366bc0fdd968d4537e24bbbbe68eda66848d7a06afc5fe1e",
+  "boundary": "Independent GitHub snapshot, not the original signed Git tag or full development history. Application/build source bytes are preserved; documentation, synthetic screenshots and snapshot-check scaffolding are added separately.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "originalGitBlob": "b83367de65fd2588a7f1b12bc303177e6dd9a1c9",
+      "bytes": 953,
+      "sha256": "20b9e0ffb03f8af66f24ad959b8470b1dfd48f81a5196c856f34699651a65b85"
+    },
+    {
+      "path": ".gitignore",
+      "originalGitBlob": "512ff2d1420e6e9f5315137f0c63e63c55db15fa",
+      "bytes": 226,
+      "sha256": "4cb3c10c7b4dffc9b5f988094d81ea3e6d5104666a5b1246530feb217e32907b"
+    },
+    {
+      "path": "RELEASE_SECURITY.md",
+      "originalGitBlob": "0a076ddd1449fbf92232e97931e36e4c77412cb2",
+      "bytes": 14241,
+      "sha256": "66ee146d53afc7b50a4e70202182dbd05fbca16289162bb3a8f28ea9f37eaebc"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "originalGitBlob": "2b94a13699d9f67719b8080eb5f29120ea102bca",
+      "bytes": 2340,
+      "sha256": "e387e6cc2067819b93c3f3c52b9d76e55c5eb8ae9f6e5a67b2e6d5a81b4dce7d"
+    },
+    {
+      "path": "app/build.gradle.kts",
+      "originalGitBlob": "9855f1cf80b4df36d30c05547e2de9797f6fcdd3",
+      "bytes": 23150,
+      "sha256": "67e80e2c799088cf55bff753c8995e284a32a056e7408f5bfcd4b5ab88217daa"
+    },
+    {
+      "path": "app/proguard-rules.pro",
+      "originalGitBlob": "594f48129917955394bccc64c8944f48047fd7f5",
+      "bytes": 56,
+      "sha256": "2b91007f4b6fa48ce242f2f9d518ef00ae2fe752693aa5fcd293e628e2b65196"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/RestoreRecoveryRequiredComposeTest.kt",
+      "originalGitBlob": "30d6886d938c75eb260073ad8474f2b1b645e662",
+      "bytes": 1176,
+      "sha256": "86721c15be24866d60b4c603a9a649260a1201359929f4a1c3c57fbb6c20db5c"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/data/AnalysisConfigSecurityTest.kt",
+      "originalGitBlob": "82088fd06fab8885e678e6dff21e176841d85ed2",
+      "bytes": 5248,
+      "sha256": "34f74335e42723eddfb4b98bd21582e8c630e0e3a9c6fbe0c6f07a5000817677"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/data/AnalysisServiceProfilesTest.kt",
+      "originalGitBlob": "0430512ea7047c72f3744a9bfb099123e705d3bf",
+      "bytes": 18413,
+      "sha256": "a92ae83b660201b6b67f6c82284d2ed1050fedf0eccf5ad7e42de5ef0ea0cec5"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/data/BodyMeasurementFormJournalTest.kt",
+      "originalGitBlob": "3ce7475e75567361ddd5544704668d2236232c72",
+      "bytes": 11529,
+      "sha256": "6decc018de1f0f0ea7846198beaf84d48ae37b6b5601434fa8676e571e95f576"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/data/FiveByFiveCommitJournalTest.kt",
+      "originalGitBlob": "03ec9daf374cf7d3907df6777b2c4f9989cefc21",
+      "bytes": 10697,
+      "sha256": "b22f00eae43cef721bf1e269efee2dbc86b2a649ff6d3113e0ca4a783375573c"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/data/FormReceiptRetentionTest.kt",
+      "originalGitBlob": "01f7830779c1c0a89979693458cb50b6ab469b59",
+      "bytes": 25195,
+      "sha256": "bab7764540dd54bf65fee36089dac1a32e5fbc497c994e2d19ddd7fd88beacef"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/data/GlmFailureMappingTest.kt",
+      "originalGitBlob": "4e451ec3ff20c39d33dc8389bea6b04c2aef9a43",
+      "bytes": 4943,
+      "sha256": "800fe9490fbc510167323cf30671cd3b36228ead451d45695b22f19a21f159e2"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/data/LedgerBackupManagerTest.kt",
+      "originalGitBlob": "06c70bed0330fdcd7deac3fb072a3ab68183892b",
+      "bytes": 62468,
+      "sha256": "bea9667a2b73a1d48d8cf562302f6b9cfe7f960e64abfb763f46d09255dae426"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/data/ManualFoodFormJournalTest.kt",
+      "originalGitBlob": "34251bd345164ab01293aba2deab5ff802605e19",
+      "bytes": 9820,
+      "sha256": "c95494f11f52a78e845dcaadff55ec3196c2ff83a05592c9d3352f1b886e4bcf"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/data/MealAnalysisPreferencesRepositoryTest.kt",
+      "originalGitBlob": "939f6100579a41b52d4140d790aa8610f286d704",
+      "bytes": 3478,
+      "sha256": "930b7985c6e13e4a727140c406d83d1c3676dabd01025eb848fec2d23665abc9"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/data/MealDetailsDatabaseTest.kt",
+      "originalGitBlob": "3d2a07a702d8ffb731f5ff1e581794826b9b39f2",
+      "bytes": 14139,
+      "sha256": "24735918d3134d90d62320ebff8b2d494eed1329fe648e5df30f28fce1385300"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/data/NutritionDatabaseTest.kt",
+      "originalGitBlob": "0cb708566b3f1a10802368c56878f3df889f831a",
+      "bytes": 25940,
+      "sha256": "1088e987ae5b5472cc0739bd10ae68a133a68a39f4c4adcc5aca4816937ed217"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/data/OnDevicePhotoAnalyzerInstrumentedTest.kt",
+      "originalGitBlob": "fa2cfddf064a96aa8a484d008cb687090ba5c7f4",
+      "bytes": 4706,
+      "sha256": "6d95570f67d8e886bb127ce666767eb0566500e5fd4fc9b731cde9f3aae86313"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/data/PhotoStorageLifecycleTest.kt",
+      "originalGitBlob": "9e0c1ab2220bfa346493675ce084503174f2e5db",
+      "bytes": 9601,
+      "sha256": "d2b1b12d6b04f441ae3ec2e3825005cca72674d97a911d33dc137f8f2ccc4703"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/data/ProxyAdditionalMealPromptTest.kt",
+      "originalGitBlob": "18de13b2c7a33c261be35228601e9dae93ea8a22",
+      "bytes": 2806,
+      "sha256": "c7d561a2fa61746bf24d2b13673db2548326eff389805058ad5285fe919564d9"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/data/SingleSetCommitJournalTest.kt",
+      "originalGitBlob": "5263458a76f182c690755eb0ea622c621e3c7d6e",
+      "bytes": 4287,
+      "sha256": "7b59ef0b016442238ca5733c463417501cbc2b99f4709d286fbb385d726f29ce"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/data/WholeMealVisionTest.kt",
+      "originalGitBlob": "bf3e71afe169366364e35e32507edec15861ffd0",
+      "bytes": 16002,
+      "sha256": "aedbdabc66dcb434bc2b9ab1835b597644aa3ba9a8ecb0dc61c16fbf9854e0e0"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/data/WorkoutCorrectionDatabaseTest.kt",
+      "originalGitBlob": "d2af18ec7f5019f085c9d778d88eac39f458cf8b",
+      "bytes": 44622,
+      "sha256": "971698ad55e3faaa8781b95b5c127fa00956ebfddd253086467c707d55785d67"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/data/WorkoutDatabaseTest.kt",
+      "originalGitBlob": "820ba7f1040343ddfdadbd782df39bd182494f2a",
+      "bytes": 52785,
+      "sha256": "80ede8a039f843a64fff6dae6ac6af89e941266b8c006a4275e032fd6ee2673d"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/data/WorkoutPlannerStoreTest.kt",
+      "originalGitBlob": "97c356f8f251a64299c6171746f22b2fa7217abb",
+      "bytes": 5385,
+      "sha256": "4c391c9d2be57f68378cfbf67a0c3a58e830aaa17d4a3210a0c01fc07a858318"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/data/XiaomiSyncManagerTest.kt",
+      "originalGitBlob": "a7aa402379263eed501d452b7500b99b3c7662ff",
+      "bytes": 4973,
+      "sha256": "ae4ba2a1d041f07899c194405f9312a54c33db2dea031b85132437b9646f2b9c"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/data/XiaomiWeightIntegrationTest.kt",
+      "originalGitBlob": "e55f721f467fbf64ca56b0bed91919df62717981",
+      "bytes": 8529,
+      "sha256": "7a192fdecbe014d19f9018bb1cc5800fb46b627aaf2f74243803e15406c81264"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/ui/AdditionalMealPromptViewModelTest.kt",
+      "originalGitBlob": "e1d929c628f9e1d4fd8d108271a7d6a27e8706b0",
+      "bytes": 4259,
+      "sha256": "f05413cf68819910468f7256102ecd5731386ddfa045b49abcd42f41f41ba896"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/ui/AdditionalPromptComposeTest.kt",
+      "originalGitBlob": "502e851157c608cba0d437da32e48b60a5d8a2aa",
+      "bytes": 14435,
+      "sha256": "749c99df1c36b4d0be5d837c51314d2ac76a711b311c7a7726fb424f42cd454a"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/ui/AdditionalPromptKeyboardComposeTest.kt",
+      "originalGitBlob": "86991af4244eb4e2e74582cb85664941e79b8c13",
+      "bytes": 7774,
+      "sha256": "e4260806da629e9fb1c3b78210a43b5ea1a875e65c1a950b8003b0c76ca14336"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/ui/AdvancedProxySettingsComposeTest.kt",
+      "originalGitBlob": "3daf9fbe04b435ea7e0126f8fd10dd977b778e1d",
+      "bytes": 5191,
+      "sha256": "22735b30707cb90b1ee6595edcc184fa648a10c06ca0f735a581a2f3e550d352"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/ui/AnalysisProfilesComposeTest.kt",
+      "originalGitBlob": "c4828db03fde657e72f321b3068d2cc4cac2bfc0",
+      "bytes": 14419,
+      "sha256": "3fa2060877861089017e73917d7cdcec5b947d35160228fad618097cf597b186"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/ui/BodyComposeTest.kt",
+      "originalGitBlob": "ded35b2075a33948cadf256beec7b7a0b965e639",
+      "bytes": 15338,
+      "sha256": "4bc55e3001cd97c6002e7ad900858c11312f32f0cee8f310782de7d87597b6b6"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/ui/FoodLedgerWorkoutRefreshViewModelTest.kt",
+      "originalGitBlob": "27acc89ed089eca6371ddd490f309ba275adb83b",
+      "bytes": 7705,
+      "sha256": "b1f9d1d06041fe92aee7fc54a554ff6a7729c1a6f5bb891c40bf94741b999db2"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/ui/FoodPortionCalculatorComposeTest.kt",
+      "originalGitBlob": "e66d0f25933cb09725e3cdb96775390f45a83bb8",
+      "bytes": 2078,
+      "sha256": "39e04aeeba501f27d7caaba84f6bc5ceb24095a9da2cdffcbaac5a2d971520d7"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/ui/InitialSetupComposeTest.kt",
+      "originalGitBlob": "be10744a68147ff48982f9478e1a74d011906798",
+      "bytes": 5017,
+      "sha256": "7ddc079de2dc902993c90657b25ed94f32fd6616a6be1edcefd45dc098822334"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/ui/MacroPlanComposeTest.kt",
+      "originalGitBlob": "18532d792884e453b5702065de03555e9d83249e",
+      "bytes": 13620,
+      "sha256": "aa390e9dbc3121099f0594cea47046b1470d19434de1291a8ed4b4771b4a2b8c"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/ui/MealDraftComposeTest.kt",
+      "originalGitBlob": "51b35f6a1a05251f8fc381c9c24bbca3426fc379",
+      "bytes": 8772,
+      "sha256": "92251939a4791203640d30a976699ca35c462a2e06c1013aa220c43c6b9744ff"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/ui/MealHistoryComposeTest.kt",
+      "originalGitBlob": "a093f211b5b7434bcbc992a139f06f22c945aaef",
+      "bytes": 19045,
+      "sha256": "ac0c4942eb4631b6e633fd079193b7a386939ebf88b23547f79ad85fb80c2b3f"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/ui/MealHistoryViewModelTest.kt",
+      "originalGitBlob": "d9dc145066f7bf41b52bf3f6268ed8be037889ee",
+      "bytes": 4235,
+      "sha256": "51df4775b036d57786037773af5dd6512486353fb3611e3db5f519f1713c4b97"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/ui/PhotoAnalysisRecoveryTest.kt",
+      "originalGitBlob": "2dac9b81e93760642750febb59a7cabdeff328b4",
+      "bytes": 6146,
+      "sha256": "ddcc4d62a3449c7bb509378be84d6193d74ae1bb9b8f87d76a1860758a20f02c"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/ui/SettingsBackupComposeTest.kt",
+      "originalGitBlob": "f3c8d2c7695bcad80af05a6f2dd4e7e6ea876fb5",
+      "bytes": 2361,
+      "sha256": "c77897c3568bbd7dc19d7a52d7280fae1195a3cd2439e9222ade4b05ddd2bf67"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/ui/TodayComposeTest.kt",
+      "originalGitBlob": "2a2bf44c088ce0cab57a353ecd447d64391ffc6e",
+      "bytes": 15654,
+      "sha256": "96ff32bd76d6c8b9c800bf537358121ad2da8a31a060103c25be320e91f3a977"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/ui/TrainingComposeTest.kt",
+      "originalGitBlob": "3b12781c10b8e566e9ee339792d0d8a2859ce45c",
+      "bytes": 33173,
+      "sha256": "1539042d18a41d7bce659ec4f60ad902c7f56125f9e12f0f775bbe18e4d45367"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/ui/WholeMealComposeTest.kt",
+      "originalGitBlob": "9b97b4562ce2a01b60df1bed86c2bf1af8d31190",
+      "bytes": 11808,
+      "sha256": "e9ba9c64f189a2c3f5bab6959ac191d9a8337f3fff5e0e2a23c91ce30bb71462"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/ui/WorkoutCorrectionComposeTest.kt",
+      "originalGitBlob": "30464efbbc8bf0a9c834b7b3f3fb93f16ebdbb4c",
+      "bytes": 14916,
+      "sha256": "6a9024d67f4e51c4a65ee891b74457bcc59dc4b9bc28b4fa9c6c77d84017ef2a"
+    },
+    {
+      "path": "app/src/androidTest/java/com/personal/fitnessledger/ui/XiaomiBodyComposeTest.kt",
+      "originalGitBlob": "8ff175f23cab16174af1f80014cbfc6b93ccd794",
+      "bytes": 6179,
+      "sha256": "1ad3a01e29c64c89fc60d0e8817e7925c9db12f72fd7dd5b29b88c4d79f9dc5e"
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "originalGitBlob": "8f71f605c118b6f999d62d13b9c32dd3195956bd",
+      "bytes": 2212,
+      "sha256": "4132f1d77c288eac333a58aca0ee3163eee73bee909d1d34e75739fda3f9eca2"
+    },
+    {
+      "path": "app/src/main/assets/licenses/Apache-2.0.txt",
+      "originalGitBlob": "12d255f8e0f049d3c3127e71788e219b86cdf55b",
+      "bytes": 13575,
+      "sha256": "71c6915d04265772a0339bed47276942c678b45cc01534210ebe6984fd1aec65"
+    },
+    {
+      "path": "app/src/main/assets/licenses/LiteRT-2.2.0-THIRD_PARTY_NOTICE.txt",
+      "originalGitBlob": "484e99761ee7fead5ad02265022f83bc7840ad4c",
+      "bytes": 1915758,
+      "sha256": "2d4d617ff3047813c1b4bfd66dc3c95b2352b401546c6e58a33b7c885091372a"
+    },
+    {
+      "path": "app/src/main/assets/licenses/Xiaomi-cloud-GPL-3.0.txt",
+      "originalGitBlob": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "app/src/main/assets/licenses/Xiaomi-cloud-NOTICE.txt",
+      "originalGitBlob": "4829a43c1f5c0048cc27cc300f42aec10b7b875c",
+      "bytes": 1423,
+      "sha256": "faec9b9b5b5343c1b21996f2869bd891ddaad3be15fe359a9ab542082c2bac76"
+    },
+    {
+      "path": "app/src/main/assets/models/aiy_food_v1.tflite",
+      "originalGitBlob": "4566976bc5a919e1936aa8717823a116f199f84f",
+      "bytes": 21151551,
+      "sha256": "03dd6d9129501f97be00775d9e17b5d9ad13be730149352adb8f4ca953b7a650"
+    },
+    {
+      "path": "app/src/main/assets/models/aiy_food_v1_labels.csv",
+      "originalGitBlob": "deecd39ed839036c27b9f738a3a69253eddf768c",
+      "bytes": 34210,
+      "sha256": "8335571e32d893c986addae14d96b6ab0157ea1f8bad983a22c224e9eeac6f90"
+    },
+    {
+      "path": "app/src/main/assets/models/aiy_food_v1_manifest.json",
+      "originalGitBlob": "94249d3d5327e0ddc234a6932532b92d8a89c75a",
+      "bytes": 2423,
+      "sha256": "7540315064bef0754331fc8d383ae4f141a07451eefe62f1a7c3a3830d77388f"
+    },
+    {
+      "path": "app/src/main/assets/models/aiy_food_v1_nutrition_map.json",
+      "originalGitBlob": "690532c78df44b047184b67bc975c307632ea562",
+      "bytes": 4123,
+      "sha256": "3262eeb5a07e9f92dc474eb6231f97b5f6dbeba93f7decd46af326deea7b151b"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/MainActivity.kt",
+      "originalGitBlob": "98643f1ea850eaafa28f238ca441ee1e8e93a195",
+      "bytes": 20278,
+      "sha256": "62502f429e207cda34c3247e3b3231a1f57fdb427f62da8b8ef18c86b4fc7579"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/data/AnalysisServiceProfiles.kt",
+      "originalGitBlob": "3a6324d65684a886cbccec8e51e4a63f292ddd45",
+      "bytes": 18349,
+      "sha256": "6c35d59e4b11e6a037be1d8bbb86a8046a2e9b0edd356753654832b68e6f1bed"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/data/FitnessDatabase.kt",
+      "originalGitBlob": "497bc5646a59e959857a62f4d729ef1037533c83",
+      "bytes": 196674,
+      "sha256": "c4bc7751812517e34305e9b331cd693de5fe096b94aea745cfabf361ddb2665e"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/data/FitnessRepository.kt",
+      "originalGitBlob": "5020f3a5f5722a2a0aad6b7aded19143da77114a",
+      "bytes": 53948,
+      "sha256": "31c54b33ce7fff81e322c05fd3091ef295bbc167bfee295084e677d0bf478f06"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/data/LedgerBackupManager.kt",
+      "originalGitBlob": "593f246f61dcab55de425b3559c7426d2811592f",
+      "bytes": 88848,
+      "sha256": "26413f1b8d1596f1e85a735bee0e5a4181680aab275c9afe350d000f30f13264"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/data/MealAnalysisPreferences.kt",
+      "originalGitBlob": "3b46971fe89fb042d5e3a5995395c907ff2698a6",
+      "bytes": 1771,
+      "sha256": "bd48048c0a79c140193d3754409980da8334ff822f2b8b33eaa187efe60bb9e7"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/data/Models.kt",
+      "originalGitBlob": "0dcfde5f977074ceaf01ceb381dec006444d40bb",
+      "bytes": 25842,
+      "sha256": "14429a208e0ce0a35ac67efa3d82a3fe22cc773db064c2133072bf813559f188"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/data/OnDevicePhotoAnalyzer.kt",
+      "originalGitBlob": "2a76f82cd061fffd67ad4342ac782b1c8d8bd16c",
+      "bytes": 18762,
+      "sha256": "3ca6c074f80a1fe51e6c244c03043d7c3f9a2464620084cd5fa6c8b631447a4f"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/data/PhotoAnalyzer.kt",
+      "originalGitBlob": "29a9f20822e655d7352149b21d942bce13f440f3",
+      "bytes": 34665,
+      "sha256": "fcaa7416a7d440a1f5d019ba8a7cc9a1a9f91a66df4f6b4d7d4661794ba86a9d"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/data/VisionApiPhotoAnalyzer.kt",
+      "originalGitBlob": "e0ba367fd697cd21ec6b48f7185c5aa0e5310f28",
+      "bytes": 12451,
+      "sha256": "96ace7519751026d08582808bbd837007e76f0b5310bfca5e563f63b73b83f28"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/data/WorkoutPlannerStore.kt",
+      "originalGitBlob": "00a4772e34f9f3af153169096e6b2bd3b18e38d1",
+      "bytes": 23195,
+      "sha256": "65aaafe34911e168cb2e1a13829d0d9ff6da2e45aa25349c905f8d667a5447e3"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/data/XiaomiSessionStore.kt",
+      "originalGitBlob": "18fa0711657807d408e14c05b542bf801d13aaed",
+      "bytes": 5261,
+      "sha256": "a5bf270ff3ae94797fdb7f35cfe255c8713c4e4940660b2cb50133311578a084"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/data/XiaomiSyncManager.kt",
+      "originalGitBlob": "65e9efffaa3b3cfc0cd751ffba113b70cac56bb1",
+      "bytes": 8640,
+      "sha256": "fd348a2126e62985c2f3a6175d1305540757d8f74f00508668d6414125d019c2"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/data/XiaomiSyncScheduler.kt",
+      "originalGitBlob": "66688018dd1196be1bd1c74cca145add0fb52058",
+      "bytes": 1932,
+      "sha256": "4e5bf4fa2aa671cba5f27b88647b66a0d09fc68a097b8c7f59ab4feec4ae215c"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/data/XiaomiWeightLedger.kt",
+      "originalGitBlob": "0e9e01ee5bd7bef5cd578d529956b2c8f87cdefa",
+      "bytes": 7243,
+      "sha256": "9f1110f0557c495937bf9b4720141e4ff3a8dfdf488be05e64f1ca773848db03"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/domain/BodyTrendCalculator.kt",
+      "originalGitBlob": "a90ff044a3c340d6449c445b7acf82fd1fc32e72",
+      "bytes": 3247,
+      "sha256": "720790706dce00d4d9c663e05f2559452bada88abe21900e105978952efd397b"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/domain/MacroPlan.kt",
+      "originalGitBlob": "03a4f33921d03b698dcf4f129930ed62b0dcd31a",
+      "bytes": 1902,
+      "sha256": "0e3fb753f9c9f69d89707bd08e5f2a411929d351b02c3ce828d3f2e1c230d9e8"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/domain/PrCalculator.kt",
+      "originalGitBlob": "c1a867d6484f75560f1b013c35b303845ae4bacf",
+      "bytes": 7905,
+      "sha256": "3c15e0d3e34700421b64dbc17ff11d6ca07347435212261c0d832611738f61d2"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/ui/AccessibleToggleRow.kt",
+      "originalGitBlob": "b3940ab967d71e1e20749326b5047d90b04d3e80",
+      "bytes": 2268,
+      "sha256": "60278de3a40a113ca545343bd80eb7916ffa698917928b0deb72660ffbf0271f"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/ui/AnalysisAdditionalPromptCard.kt",
+      "originalGitBlob": "a8143f1d12386549f49155abcc3793f2ae3f2bbd",
+      "bytes": 12068,
+      "sha256": "ed55d9fbdfa338c1c68c4b84778e172a8cbf568028e84478ac29505457cd9cd3"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/ui/AnalysisProviderPresets.kt",
+      "originalGitBlob": "cc562cf209ea9bcb016fec5969cd0786e7bdb318",
+      "bytes": 1678,
+      "sha256": "2a1ba741cf70d1e1f8d399c44ec2d95e2443679932f72fc1a4a34176a94845e0"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/ui/AppViewModel.kt",
+      "originalGitBlob": "5d672c353770a4a7b3fdd25c3bd86bd051a3aee3",
+      "bytes": 171834,
+      "sha256": "f163d6763b1e9c98c3c61bbbc6a7ce7ffcdb035ef4cb73cceb73afe4ec5d4190"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/ui/BodyAndSettingsScreens.kt",
+      "originalGitBlob": "311c34206da84ed994efab0aacfb2a78b7f52504",
+      "bytes": 52676,
+      "sha256": "eedf90140259b762f54f28cce286f16d764689ae449be3c3af906a9716b40e9c"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/ui/CloudNumberFormatting.kt",
+      "originalGitBlob": "7a20182e0961a34617849ac2e7ee609052496a5a",
+      "bytes": 258,
+      "sha256": "5e5c1f9a89281223b64bd2aab028128e1a9f9d17a92d0e4bfaf9c37d081aa027"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/ui/FoodPortionCalculator.kt",
+      "originalGitBlob": "6474903b68a765b8643ed9e0ce0993d972227e0c",
+      "bytes": 5425,
+      "sha256": "9fdb1efb12d3f8601a37534d3f09f7a445b8a89bd69dcddb3955c4ec8a8548a9"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/ui/FoodScreens.kt",
+      "originalGitBlob": "4cc70c1c2b8c3091fcfeb2e45a8f715dcaa9b80a",
+      "bytes": 85512,
+      "sha256": "6cb219948d75cc918b36a2d0574f781f294f43756de1054954548c5c8ce479d1"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/ui/MacroPlanScreen.kt",
+      "originalGitBlob": "e92cb3391871f3867cc74b2a0429e717016ef41d",
+      "bytes": 22885,
+      "sha256": "bc0f609b2ed7d80a4a5ad4cfa68e27a522738d69ee09de2c6cd90cf642fbc5f0"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/ui/MealHistoryScreen.kt",
+      "originalGitBlob": "d011a4920f8f17c5d0057f5c21aff7c4c7fb7ff9",
+      "bytes": 13705,
+      "sha256": "db447731a7117cfeda31dd6163da148fabf96971b122f333f5b0ba20fc8bfaa7"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/ui/TodayScreen.kt",
+      "originalGitBlob": "47d0829d5a84dc8f5deb26d0da426d446e4723fe",
+      "bytes": 18913,
+      "sha256": "b67bed38df578463471066c64b0c3113a9731b3fc8414ad2db5df999b5e0dbe0"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/ui/TrainingScreen.kt",
+      "originalGitBlob": "56fe07f278ebf6a63e101f2fca450c6b7d868635",
+      "bytes": 166920,
+      "sha256": "4547afebe0fa349a1cb2d49f5fe0f87c346d3b1a99138d642bbb9a7c0365208f"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/ui/UiFormatting.kt",
+      "originalGitBlob": "09134730c7e853c8c0bd5a8bf5e1b92561b88edf",
+      "bytes": 484,
+      "sha256": "310aa030aa599bb033661bfcad8076b3b71a3ff15192fde5b55030e30191360c"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/ui/VisionSettingsCard.kt",
+      "originalGitBlob": "f31ce6b647bc6c42d59ea8bb5b511de49b562497",
+      "bytes": 25787,
+      "sha256": "0e88029ce259f4ba68c1055bf7a86cd3a4eb1785da099e9a3760b4fd66200a9f"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/ui/XiaomiConnectionCard.kt",
+      "originalGitBlob": "9a1c18cd2f183f31645940b909bbe090f6c1f034",
+      "bytes": 7155,
+      "sha256": "2bbd8a4207864c759575843999b679f567e0bbc5397bfcc4ca588aca539992fd"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/ui/XiaomiConnectionViewModel.kt",
+      "originalGitBlob": "e3027b2bef28661c488bd0b7afee527f335f1f59",
+      "bytes": 4686,
+      "sha256": "ef7c03fbf8dfd71d2903cbca23c15ff04a9cca4ab8fbd9af5edbfa32148ee7d8"
+    },
+    {
+      "path": "app/src/main/java/com/personal/fitnessledger/ui/theme/Theme.kt",
+      "originalGitBlob": "c849400933ddde925e578d7e46a1698d050cf689",
+      "bytes": 3101,
+      "sha256": "3bb6b146c933b6c1d45d5764355b407de576faab12980648521a5cd99c44140a"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "originalGitBlob": "a9b06de65b283e8f58990a5a4d298fdbf3535e50",
+      "bytes": 429,
+      "sha256": "49b08283e124340514c3cfbf82170f0eca13bf96240de62e8df5f2ddb1317daa"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_monochrome.xml",
+      "originalGitBlob": "e318b9952dbb72681ef4aa071c793299d57d3338",
+      "bytes": 462,
+      "sha256": "192efbc834ccaf801a2185eab7748a3886a13ae3a3b010b877c4d24ccec78576"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "originalGitBlob": "f3b45f772d485df27e4eaeaf5c644263227aecb9",
+      "bytes": 338,
+      "sha256": "a9476ffa50e6412caac2a41c3dbc2df366c90e27dccdc9ce9b6346dd90be998c"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "originalGitBlob": "f3b45f772d485df27e4eaeaf5c644263227aecb9",
+      "bytes": 338,
+      "sha256": "a9476ffa50e6412caac2a41c3dbc2df366c90e27dccdc9ce9b6346dd90be998c"
+    },
+    {
+      "path": "app/src/main/res/mipmap/ic_launcher.xml",
+      "originalGitBlob": "676898f9c3c5cfe8a4a5551c41e8233613ca34f3",
+      "bytes": 490,
+      "sha256": "63bd63ac1002053cb1d3f65bdac3522b474ab64343cd7c6f3a49c3d7256cc802"
+    },
+    {
+      "path": "app/src/main/res/mipmap/ic_launcher_round.xml",
+      "originalGitBlob": "676898f9c3c5cfe8a4a5551c41e8233613ca34f3",
+      "bytes": 490,
+      "sha256": "63bd63ac1002053cb1d3f65bdac3522b474ab64343cd7c6f3a49c3d7256cc802"
+    },
+    {
+      "path": "app/src/main/res/values/colors.xml",
+      "originalGitBlob": "ab7fbdb6d620bd8fa8dbe2ea1324010e22fc0ea5",
+      "bytes": 172,
+      "sha256": "197cafed9da6f632151cd49693354c18a2bcc27868a1bd933f03e9f3d9f5f0a0"
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "originalGitBlob": "bd8eaf2b7ace52ee3ecf7881365b17d7bc29ba27",
+      "bytes": 114,
+      "sha256": "6b2abcc458093e93add3bbfb171e52ee0e03cfa11dc9da3ebb2c08073bee670e"
+    },
+    {
+      "path": "app/src/main/res/values/themes.xml",
+      "originalGitBlob": "7bebcc0fe5fb861240a24905211e6340465d935a",
+      "bytes": 473,
+      "sha256": "885c692ba31282a4f760ae9f0b5c797dcd70d35ea32f7d0811b39e3554c98aaf"
+    },
+    {
+      "path": "app/src/main/res/xml/backup_rules.xml",
+      "originalGitBlob": "ce0b32432a06d0978e0f0ba660c50b34c801d1e4",
+      "bytes": 293,
+      "sha256": "2c5c697984f4c52b526337ab61113f5843e0bfc6af4722374916ffe6da38dd9a"
+    },
+    {
+      "path": "app/src/main/res/xml/data_extraction_rules.xml",
+      "originalGitBlob": "224515d8b15faaaff5fbe052391b855b0429ceb2",
+      "bytes": 630,
+      "sha256": "eda9dddce1e895de1efd716fe75e244187bf8f91a3bb7444c6ea1731e51c74a8"
+    },
+    {
+      "path": "app/src/main/res/xml/file_paths.xml",
+      "originalGitBlob": "bad4c10fd3fa47d7670ce1cdaba6b35dc0979f82",
+      "bytes": 239,
+      "sha256": "e8e6dfc27048af42c958cd8053762dc31543a82d7e799b81a5072a9dc62518f4"
+    },
+    {
+      "path": "app/src/test/java/com/personal/fitnessledger/data/MealAnalysisPreferencesTest.kt",
+      "originalGitBlob": "0ef54af66990dfc2bf6d05dc234e3d45d8379959",
+      "bytes": 2247,
+      "sha256": "fc75e45cdaeff6304c9c650a0b606ff47e013107fbb28a1c82c797ecc255838f"
+    },
+    {
+      "path": "app/src/test/java/com/personal/fitnessledger/data/NutritionTest.kt",
+      "originalGitBlob": "c7aabfeda8a93f65d305b220ec3da518c621741b",
+      "bytes": 10379,
+      "sha256": "1f431618623aff658ff04a4002064553d33c30aa3af3f00ce3912b4659d92b7b"
+    },
+    {
+      "path": "app/src/test/java/com/personal/fitnessledger/data/OnDeviceFoodPostprocessorTest.kt",
+      "originalGitBlob": "5379e86b1141ab9ba369a77579c03c832441ecdf",
+      "bytes": 8058,
+      "sha256": "7004c5087bb01a523d46e03a63b3bbead1aa944083dc8d78a019b41802da1250"
+    },
+    {
+      "path": "app/src/test/java/com/personal/fitnessledger/data/RemoteAnalysisHttpClientTest.kt",
+      "originalGitBlob": "5b7c2577fe93875cf72ff7376c036f1b56ef7173",
+      "bytes": 5321,
+      "sha256": "56da6c7fa339c4874658a1d343eb08c3093cfcdd609720bb5504f7ef4addac05"
+    },
+    {
+      "path": "app/src/test/java/com/personal/fitnessledger/data/VisionConfigurationTest.kt",
+      "originalGitBlob": "2e6618d2cdea5e8b5d291930594ea3fa4c4be6e9",
+      "bytes": 3086,
+      "sha256": "2a6630009b346846c47c2e785df89423582ecc17473b4c170a24efd98689aae2"
+    },
+    {
+      "path": "app/src/test/java/com/personal/fitnessledger/domain/BodyTrendCalculatorTest.kt",
+      "originalGitBlob": "a9b98579aaf09a22bc66930d6caa1399550137f7",
+      "bytes": 2815,
+      "sha256": "bd4fc6af9f826e0e5d2ae912525caf539b2d622ceb9c51f33290299afb9380f0"
+    },
+    {
+      "path": "app/src/test/java/com/personal/fitnessledger/domain/MacroPlanTest.kt",
+      "originalGitBlob": "ece2d32d79ed36780cfab9db1d091a5e89beecb2",
+      "bytes": 2847,
+      "sha256": "870b303ba0b573972c4cd6e6d2b1f19b8d2f99ed05f34be71be04b209c8391e2"
+    },
+    {
+      "path": "app/src/test/java/com/personal/fitnessledger/domain/PrCalculatorTest.kt",
+      "originalGitBlob": "711478232ebd6e057d4ac66337fd82910fae8432",
+      "bytes": 4854,
+      "sha256": "26c0389e53f8fd2fa4b57f60b77818a629768345d93037103be1ca18ce261f94"
+    },
+    {
+      "path": "app/src/test/java/com/personal/fitnessledger/resources/LauncherIconResourceTest.kt",
+      "originalGitBlob": "7d9b52a67a71cb7bd3c90db26f65ad2cfea60f3f",
+      "bytes": 4066,
+      "sha256": "cdd455e26a9762e481b2358aced381a705447c651660306ec879cb0ae6e8203d"
+    },
+    {
+      "path": "app/src/test/java/com/personal/fitnessledger/ui/BackupAvailabilityTest.kt",
+      "originalGitBlob": "64c3108c90a736e651739303258e11848e05fc20",
+      "bytes": 2309,
+      "sha256": "2510e0c032cfdcbdb961411bc64c738a3ba4d81bf407fb972f8174a5d52343cd"
+    },
+    {
+      "path": "app/src/test/java/com/personal/fitnessledger/ui/ManualFoodFormUpdateTest.kt",
+      "originalGitBlob": "ba0e3d37fa20f52e7b31e57ec09ce698378db785",
+      "bytes": 4870,
+      "sha256": "5ba62a059dc144a94a9a635fe3f77eef2997b4161830329b274a62188c790eb7"
+    },
+    {
+      "path": "app/src/test/java/com/personal/fitnessledger/ui/UiInputValidationTest.kt",
+      "originalGitBlob": "cd6f17b463aba5034fb59c3b5bb6ca526f3b5671",
+      "bytes": 19163,
+      "sha256": "dc3eb9c392d67bf888b71b9f1ece45afb17e9b398a2a726590b72cd9a6056d22"
+    },
+    {
+      "path": "app/src/test/java/com/personal/fitnessledger/ui/WorkoutCorrectionStateTest.kt",
+      "originalGitBlob": "3997b7ba9c49427bfefee02e25193d475a4e12b3",
+      "bytes": 8324,
+      "sha256": "6cf3e3ed69a5dcf447b414cf2adb9ea7cdd2c22491338401a805ffaae9819087"
+    },
+    {
+      "path": "app/src/test/java/com/personal/fitnessledger/ui/WorkoutPlanningTest.kt",
+      "originalGitBlob": "b45e6438d222acfc643e9151475b42b2e8b6876e",
+      "bytes": 7720,
+      "sha256": "fcea9407bc628f911093b2ca5484818904ac67d0e2db0869ec4f14896065f43e"
+    },
+    {
+      "path": "build.gradle.kts",
+      "originalGitBlob": "5d0a7ac19d7d22cbbdc80b94220f92765c5f76ff",
+      "bytes": 1035,
+      "sha256": "ac3e6342ded104463f735ef2834abe2c6ddc6d050ba72e290724d3ddc58cdb1c"
+    },
+    {
+      "path": "gradle.properties",
+      "originalGitBlob": "089f96c634ac050bc1fddff90d8045892c9ab8ba",
+      "bytes": 347,
+      "sha256": "3465c0d47edf0528a950fa47452d01005bf51558226f1bb1d948e44c497f110b"
+    },
+    {
+      "path": "gradle/verification-metadata.xml",
+      "originalGitBlob": "c32661f7ef95adf221803f1b203eaf1f9ed42c73",
+      "bytes": 220635,
+      "sha256": "f3e62ea622c4ed2429e626dc4325df9fd07ea7ab96dfdb9a7de1571e6dd6a2bf"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "originalGitBlob": "1b33c55baabb587c669f562ae36f953de2481846",
+      "bytes": 43764,
+      "sha256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "originalGitBlob": "db64a5ffe67b2bfc0b23296375e05e51fa9ae562",
+      "bytes": 340,
+      "sha256": "610df4d615536f5ca8a0e4bf6ec446322851fa91bdb85c562ac305a1ddcc9a00"
+    },
+    {
+      "path": "gradlew",
+      "originalGitBlob": "23d15a9367071145e9c79bb4ddf879d1fbe78b5d",
+      "bytes": 8733,
+      "sha256": "b187b4c52e749f5760afdd6fadc31b2a98ad35fb249bf0dff03b72650f320409"
+    },
+    {
+      "path": "gradlew.bat",
+      "originalGitBlob": "f91f56787e789aa02f1189b3152626811dd73243",
+      "bytes": 4445,
+      "sha256": "4f79f40afaae9735a8b0e2bc073e8987677e7b05528e44fc9520c000aac36e3a"
+    },
+    {
+      "path": "release-policy.properties",
+      "originalGitBlob": "1e2da554f22d5d615b16c2c8844e84bf41cbd404",
+      "bytes": 1423,
+      "sha256": "74f202b477bed81a84e2f07ea630317accb0dc05a4627a4bad455b9c20d9f701"
+    },
+    {
+      "path": "release-tag-allowed-signers",
+      "originalGitBlob": "0ff8c70f18c14f4e9bc07cd1a4600e29af5a4ad0",
+      "bytes": 104,
+      "sha256": "45384d9b0b4e35b7805c809cc58e110a52c6ca811fd9c2908af0dbf4e5092af4"
+    },
+    {
+      "path": "scripts/Finalize-ReleaseEvidence.ps1",
+      "originalGitBlob": "4268345cecf76d4d5b803cde408c394b061156c0",
+      "bytes": 16607,
+      "sha256": "04e55151b59ba6bc4299b3f0d681c3b51d478fcfec4d8c44b575958fddd0305c"
+    },
+    {
+      "path": "scripts/GradleDistribution.Common.ps1",
+      "originalGitBlob": "bd47b2d98864310b968ab2a5b9f52fe357ac58af",
+      "bytes": 5195,
+      "sha256": "72f5cd060e882c4febc77ab54eaa5f3d4f579d9d3368aed0ad57b20beecd6483"
+    },
+    {
+      "path": "scripts/Initialize-ReleaseTagSigningIdentity.ps1",
+      "originalGitBlob": "2f791a803c05f3ac67d66d474f612208e35c2762",
+      "bytes": 3750,
+      "sha256": "d92c7a71627a4220f5a00f5a46529beade7dc12961c9d9698644a2929b17129e"
+    },
+    {
+      "path": "scripts/Invoke-GradleVerified.ps1",
+      "originalGitBlob": "f06478031c1a6af6eb79718b5b8800d94db23248",
+      "bytes": 9530,
+      "sha256": "37fcdd6d725fc86abc6a3fa0013a3ea20273960095db733ed7f61bacd1a6316a"
+    },
+    {
+      "path": "scripts/Invoke-GradleWithReleaseSigning.ps1",
+      "originalGitBlob": "52f3514c748e903fde1250f4c3afdafcf0e593e9",
+      "bytes": 580,
+      "sha256": "7122d529d1b947f93473f580f3b10797051e69ae50cca4e5f7aa3919bc9323bd"
+    },
+    {
+      "path": "scripts/Invoke-InstrumentationWithEvidence.ps1",
+      "originalGitBlob": "ed9a7a0c4ca51dc7cd7b135c62426ebfe46654e9",
+      "bytes": 14045,
+      "sha256": "68068f7dac4c1c180ccc5986c41144a9276a2e99091f48afd1046d2ddc8d5a20"
+    },
+    {
+      "path": "scripts/Invoke-ReleaseVerificationEvidence.ps1",
+      "originalGitBlob": "ae2cc8342024866a7772a74cf7167c25c6aed6d5",
+      "bytes": 10975,
+      "sha256": "1b11ae17279d99c5e4404c1a264a468d94110b0aff686e2609639312f28d17ae"
+    },
+    {
+      "path": "scripts/New-SignedReleaseTag.ps1",
+      "originalGitBlob": "3d2cffbb7e28e2f8817d3f5bb4246b1f43b36a63",
+      "bytes": 5884,
+      "sha256": "4381ea08bf48b4788443128ee844e2ac167ef5dc9caeff595e69499c15cc04d8"
+    },
+    {
+      "path": "scripts/ProcessEnvironment.Common.ps1",
+      "originalGitBlob": "b0937856503dad695e8b74df15d76c0d270f4b96",
+      "bytes": 2870,
+      "sha256": "4924b6627af736384460fade86c843fc45dee9e341becdf27fa0d4f75b2d68e5"
+    },
+    {
+      "path": "scripts/Protect-ReleaseSigningSecrets.ps1",
+      "originalGitBlob": "2ceed62e3758980d98854e2df49b6341d27340cb",
+      "bytes": 5471,
+      "sha256": "57da80533b11382780e44527ef14479a1767ed29ffb39502725edd685d141b26"
+    },
+    {
+      "path": "scripts/Publish-TaggedRelease.ps1",
+      "originalGitBlob": "35525519aa81a54bd611761f8980d755a3226cc0",
+      "bytes": 46726,
+      "sha256": "d60f1b00b4128eb48f83bc8ec9faa2c951f8fea07586778a50e88febdeda890e"
+    },
+    {
+      "path": "scripts/ReleaseProvenanceSignature.java",
+      "originalGitBlob": "155c19f6b813ed6c117d304cb32c629bab93e2f7",
+      "bytes": 5961,
+      "sha256": "cf65d46c25d95ec712cef7dd2fac299c8b947cb0404d581e0ac89e35af316780"
+    },
+    {
+      "path": "scripts/ReleaseSigning.Common.ps1",
+      "originalGitBlob": "72c727558e8e2c2c9de75516c9e3edef8201a3a3",
+      "bytes": 38691,
+      "sha256": "bf7c60ecb641db19c023a62e0d0ad7a7dee4926aa08d83dfcad5828a6d145949"
+    },
+    {
+      "path": "scripts/Resolve-GradleAsciiWorkspace.ps1",
+      "originalGitBlob": "2e79bfaea5f3f76a5261c41a843b3d48df6caa00",
+      "bytes": 6723,
+      "sha256": "ac372721a5a08f58bef53559aaaa2c8bae8db437417c960d2bcdaf2bba313e41"
+    },
+    {
+      "path": "scripts/Set-ReleaseSigningAcl.ps1",
+      "originalGitBlob": "a7046a8a58796c527c20b70cd415b9767c682ccf",
+      "bytes": 4514,
+      "sha256": "689c8c4d5da712665a82e14ccffdd1ffc605d87445ef1b787d2ce70f938f86ec"
+    },
+    {
+      "path": "scripts/Test-DeliveryMetadata.ps1",
+      "originalGitBlob": "c1d8458165f9744a5faa6e3fb03ce66569d21b28",
+      "bytes": 36252,
+      "sha256": "cfa14e72b81bda68a507133c8c10216f3474581a9109dc45bad60ee695bb3cc1"
+    },
+    {
+      "path": "scripts/Test-GradleDistributionSeeding.ps1",
+      "originalGitBlob": "60c6f32b49ce6fba54275d917b87d9b5af9a4683",
+      "bytes": 2479,
+      "sha256": "058e9f4bee071a69da9f38fb5154232c5059348d690d884d180a59a684526a65"
+    },
+    {
+      "path": "scripts/Test-GradleUnicodeAndSpacePath.ps1",
+      "originalGitBlob": "cda99f7c539151634ea0e748f3e6a176ff583a27",
+      "bytes": 3020,
+      "sha256": "97f16c4e1e5897c552e6f7be5f06617a8a905b75716976e968637e229e5b3236"
+    },
+    {
+      "path": "scripts/Test-PowerShellParser.ps1",
+      "originalGitBlob": "f8e96b4f30cba1a24b4bd5193590771f8411fd71",
+      "bytes": 839,
+      "sha256": "278b291b1d69dd77f619c4a9310e7e3b8609817728145d9f93854abdee50460b"
+    },
+    {
+      "path": "scripts/Test-ProcessEnvironmentRestoration.ps1",
+      "originalGitBlob": "f28e265bcbf08b45df2c6453eff767d0cd4e2fc4",
+      "bytes": 2373,
+      "sha256": "b32e82dc556799ebcd24c21e2da360e3bcbfa92690ebb590f6374adf2336c1c8"
+    },
+    {
+      "path": "scripts/Test-ReleaseDependencyVerificationGate.ps1",
+      "originalGitBlob": "1ba2530922e74439fea3c9000ea647da44a25700",
+      "bytes": 18599,
+      "sha256": "4bec4b7a60b103294119996e4e7d314d1790f2d6bc7b696b460abdf0388adb30"
+    },
+    {
+      "path": "scripts/Test-ReleaseEvidenceIntegrity.ps1",
+      "originalGitBlob": "329a8134d6fa8d41d1a89e42e3228619c83cc45d",
+      "bytes": 24835,
+      "sha256": "ee24b2b94e120f6c2ada5fc09108e5893196b536ef6690a6ffe5611b815b7a16"
+    },
+    {
+      "path": "scripts/Test-ReleaseProvenanceSignature.ps1",
+      "originalGitBlob": "1134bc5cd4985616bc51cfce90da4027b1087fb4",
+      "bytes": 2732,
+      "sha256": "d266b9b5fa3ab3dedb8a57586915d1f5c9b0de35c58d90145785e534ecdf3f96"
+    },
+    {
+      "path": "scripts/Test-ReleaseTagSigningIdentity.ps1",
+      "originalGitBlob": "a79bfb8c8262a1fc31c3c4a69f0215e5a8d8b894",
+      "bytes": 2689,
+      "sha256": "3d5289bc2f95fdd7a50aee161e0cdfb2ec2b30979bcb67903af90226c29659d4"
+    },
+    {
+      "path": "scripts/Test-ReleaseVerificationSourceDrift.ps1",
+      "originalGitBlob": "18f3d5f0eab03731f8e0e40829c2398ae153db40",
+      "bytes": 7910,
+      "sha256": "754fc8c9a8929a197b5e8c75c61e6b87a5eb5159f30443668022d934c7164acb"
+    },
+    {
+      "path": "server/.dockerignore",
+      "originalGitBlob": "2a351fc1b93ff84a2ac8e44bd395132963da6d30",
+      "bytes": 104,
+      "sha256": "de5bebc1d27327c94aab2313a15b69adb506784cd937e837c2315e0f5f096021"
+    },
+    {
+      "path": "server/.env.example",
+      "originalGitBlob": "ce35a5caa2128b41419458e72387fedb782162f6",
+      "bytes": 1868,
+      "sha256": "57b39928dd5e8693974ce46a05cf17641489e5910b0a1ad1eb3842bbff872028"
+    },
+    {
+      "path": "server/.gitignore",
+      "originalGitBlob": "b2553cdd46f33d5eb1387b835f1bc2a4e122e68f",
+      "bytes": 96,
+      "sha256": "b5f770b7d4c81bfb132dfed692cd78534724a46f5e1f2f3ec2aae11ef2846073"
+    },
+    {
+      "path": "server/Dockerfile",
+      "originalGitBlob": "dcd33ad5cc2092ebeec12a43fe0c50e5a2f86e4d",
+      "bytes": 1132,
+      "sha256": "a4ba49c65a42e441722a79accb48cc151dbef12df8e1d91c4e0629cf2829ad8d"
+    },
+    {
+      "path": "server/README.md",
+      "originalGitBlob": "0f00419fa008bab997c5449e60f13dfe95b0a8ce",
+      "bytes": 13085,
+      "sha256": "1c1f2bb892045eefaff318318762969162c77d1c75efca564a644845f4bf305b"
+    },
+    {
+      "path": "server/compose.example.yaml",
+      "originalGitBlob": "d2a93b608729ef7e7780720e428ec4efc51f4e7f",
+      "bytes": 1571,
+      "sha256": "a2f07a456e9d13134819ed0ef5146751025f0f95a02ed552a988b53887294424"
+    },
+    {
+      "path": "server/meal_analyzer_server.py",
+      "originalGitBlob": "20d5cf848c92b8821139cc999c2f26130c1260b2",
+      "bytes": 45360,
+      "sha256": "c9b8df6e6366f07eaa6e1b1f94004849463848fb89243ac8dd0a85899b1ceb87"
+    },
+    {
+      "path": "server/meal_schema.py",
+      "originalGitBlob": "998302898f9b833c058c12e59e80362e8be1f588",
+      "bytes": 4719,
+      "sha256": "91ff4f2f8efc00e5c610a4c9e5a2dad523a13fb25810440c0cd5c114fff8fba7"
+    },
+    {
+      "path": "server/requirements.lock",
+      "originalGitBlob": "f0b9f7e8455d0a4129784242719cbbf0ec6f6403",
+      "bytes": 50621,
+      "sha256": "48fb33ed9488d465f9430a1021d71452f28b58a2786a5771424caeb3a820cd36"
+    },
+    {
+      "path": "server/requirements.txt",
+      "originalGitBlob": "2b8be443960c76c3a74ccd4d014ed24974d92387",
+      "bytes": 74,
+      "sha256": "75aa980e2f88eb83fd0ff739b1424f01012bce0ba6ae84621afd098bf6bf054a"
+    },
+    {
+      "path": "server/state_store.py",
+      "originalGitBlob": "23149b996a5be215433fe3a013dac869865c9c1c",
+      "bytes": 31617,
+      "sha256": "4cc341eb593272af3d4e9e4d824fa8993b13f8d187e6022c85fb4a196ee79c75"
+    },
+    {
+      "path": "server/tests/test_meal_analyzer_server.py",
+      "originalGitBlob": "b64180e1b0b03f34d708738244976370da4aee70",
+      "bytes": 49744,
+      "sha256": "e35cb8743c1d1cab0aad47414633804aba93dc8e959b040dad5b7c3923bb034c"
+    },
+    {
+      "path": "server/tests/test_meal_schema.py",
+      "originalGitBlob": "5b99840cc14ffa8d16bab9601bd30978d02c5fe1",
+      "bytes": 1630,
+      "sha256": "cea50a0fa7a371da20df30d5e64c1354b8cb045324e4c43780b30069761211e1"
+    },
+    {
+      "path": "server/tests/test_state_store.py",
+      "originalGitBlob": "9af81da920238d9c44a75f9b8ee65a0b455b9f0e",
+      "bytes": 23111,
+      "sha256": "35c1700ba67cd9f39927ca23ff44544a0b4d4a5705ffcf9fc65030a880141773"
+    },
+    {
+      "path": "settings.gradle.kts",
+      "originalGitBlob": "3ff5547c0fe15b3bed2020f27f5fe4c1ba2d75ec",
+      "bytes": 2035,
+      "sha256": "13297c7115c3d1cb146b3268eed4a9a4ff1153848919def90f459dd872691281"
+    },
+    {
+      "path": "xiaomi-cloud-core/README.md",
+      "originalGitBlob": "c7d83379625061013ff3f8035865739218c2933f",
+      "bytes": 928,
+      "sha256": "21d2227a2b8e481e560c9e64dad81fb345b83164b21adec1ccd4adb36b104027"
+    },
+    {
+      "path": "xiaomi-cloud-core/src/main/kotlin/com/personal/fitnessledger/xiaomiprobe/EndpointPolicy.kt",
+      "originalGitBlob": "1a7161b635d12345c48d9d789fd27a9a8c7ccb74",
+      "bytes": 2109,
+      "sha256": "9e9c242bd2bbeb917f275dbbce81fc104acf9803dce927bb5a7acca5f6949943"
+    },
+    {
+      "path": "xiaomi-cloud-core/src/main/kotlin/com/personal/fitnessledger/xiaomiprobe/ProbeGateway.kt",
+      "originalGitBlob": "7630d07c4470f6e539607c6d121bc5a3eaedf04a",
+      "bytes": 1687,
+      "sha256": "f2c3276a629511799ca2fcbdab8ebb174c02d5c64df47fa802ca25973edc3f56"
+    },
+    {
+      "path": "xiaomi-cloud-core/src/main/kotlin/com/personal/fitnessledger/xiaomiprobe/ProbeTransport.kt",
+      "originalGitBlob": "8f27b1f2f4a6e3d6cedd9ceefaee11d2262bd702",
+      "bytes": 4052,
+      "sha256": "3c83fec13366ef973fa00cf16119c580e6e815d567cc6b3ed83ac33ddd917f50"
+    },
+    {
+      "path": "xiaomi-cloud-core/src/main/kotlin/com/personal/fitnessledger/xiaomiprobe/SessionCookies.kt",
+      "originalGitBlob": "30b3d758b3187b5712a492bc738371b146b84c59",
+      "bytes": 11094,
+      "sha256": "d2ac6925525a6431d1e547066fde6ce00303bd4d16331dde311921bf2e3094ea"
+    },
+    {
+      "path": "xiaomi-cloud-core/src/main/kotlin/com/personal/fitnessledger/xiaomiprobe/XiaomiCloudGateway.kt",
+      "originalGitBlob": "fc27806e631ea1d71027249de939e61460ef0d23",
+      "bytes": 14987,
+      "sha256": "d1a02c27ef61687860fd9e7e97381564f700e340bc251d55f4d8df188d78772f"
+    },
+    {
+      "path": "xiaomi-cloud-core/src/main/kotlin/com/personal/fitnessledger/xiaomiprobe/protocol/CloudCipher.kt",
+      "originalGitBlob": "636c14446201add9bd11a6f23f8bc0fe9993e2b7",
+      "bytes": 9192,
+      "sha256": "6eee31ffb32359cc28e33cc557dbaca101a9366d97b0c49e65e1f2a1a83227ed"
+    },
+    {
+      "path": "xiaomi-cloud-core/src/main/kotlin/com/personal/fitnessledger/xiaomiprobe/protocol/WeightRecords.kt",
+      "originalGitBlob": "a93a1a66a5b1baf5eebfddc763d2c6a77e5b6faa",
+      "bytes": 6587,
+      "sha256": "7ebad5473eb6cd99a08fcecf5a670281a602611da764cbf5ed5b09df285c3274"
+    },
+    {
+      "path": "xiaomi-probe/LICENSE",
+      "originalGitBlob": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "xiaomi-probe/NOTICE",
+      "originalGitBlob": "8644f901c42ee5c973a060185cb0f839c9acc849",
+      "bytes": 4295,
+      "sha256": "a18e68910e1442dfca3f8e09d32b36cb568753312eda55008a1fbadd2d3cad68"
+    },
+    {
+      "path": "xiaomi-probe/README.md",
+      "originalGitBlob": "9ca641edb594bc469a65a645e1450e6859ff1b8f",
+      "bytes": 5313,
+      "sha256": "1ed0d95f2826b5bd64b089991ccb3ea0f05e8de435a85f72223c15367cc8caa7"
+    },
+    {
+      "path": "xiaomi-probe/build.gradle.kts",
+      "originalGitBlob": "6c494f041259ac3f184d02b2c47b26b793324160",
+      "bytes": 2424,
+      "sha256": "c138ae6e282723b3321989a7bddc8b2afe466b5451cee257c2b72db27647ec05"
+    },
+    {
+      "path": "xiaomi-probe/src/androidTest/java/com/personal/fitnessledger/xiaomiprobe/CloudGatewayInstrumentedTest.kt",
+      "originalGitBlob": "77ae73cc7c1da4b8d59635cdfec9e911f419c253",
+      "bytes": 11231,
+      "sha256": "70dd88e30e06f25766395ed6c5b06f1664e7cfc1c4980441bcd973f0d074cb7e"
+    },
+    {
+      "path": "xiaomi-probe/src/androidTest/java/com/personal/fitnessledger/xiaomiprobe/ProbeLifecycleTest.kt",
+      "originalGitBlob": "b839e1db445470ea38fc893804e3071cb5d6afab",
+      "bytes": 6067,
+      "sha256": "9421a3dc1ff469056b4b77c72aed71bc7d665c0d766a7b0d318c271f22cf9914"
+    },
+    {
+      "path": "xiaomi-probe/src/androidTest/java/com/personal/fitnessledger/xiaomiprobe/ProbeScreenTest.kt",
+      "originalGitBlob": "d9415ed985a84ffc5fa4f3bde33a9d1b523736f2",
+      "bytes": 6030,
+      "sha256": "a3a834ecb383f5c151a72c72239010b8243e68da6f0c0635727075737c64a139"
+    },
+    {
+      "path": "xiaomi-probe/src/main/AndroidManifest.xml",
+      "originalGitBlob": "b5b698f3b0588fc394dc0cc0cbde7246ef43a500",
+      "bytes": 996,
+      "sha256": "e68cf8bee3d9869da1355e4872e0a48e5f2b029dfcc6b95c92b93be838d6da83"
+    },
+    {
+      "path": "xiaomi-probe/src/main/java/com/personal/fitnessledger/xiaomiprobe/MainActivity.kt",
+      "originalGitBlob": "338056132af2c32843584268ed89ce06f45a7b20",
+      "bytes": 8390,
+      "sha256": "db41ecf0add03d270e80c1373fd2ce5e87f4256bdcb00838b6bd37e653066b16"
+    },
+    {
+      "path": "xiaomi-probe/src/main/java/com/personal/fitnessledger/xiaomiprobe/ProbeScreen.kt",
+      "originalGitBlob": "3e169fd40c85b024511167bc95e19b146982ab68",
+      "bytes": 22181,
+      "sha256": "d134689576806e471149182a26bc3119bdbbb9f1a3409f7b1c1ac98633133c13"
+    },
+    {
+      "path": "xiaomi-probe/src/main/res/drawable/ic_probe.xml",
+      "originalGitBlob": "8f20c2540f492d82c1d8292e2d9e6165dee2a1a1",
+      "bytes": 712,
+      "sha256": "428abd7088088517ebcc875c0e7adf8057bc5cd3bcd6b4385a7a7f0c68d0bdeb"
+    },
+    {
+      "path": "xiaomi-probe/src/main/res/values-night/themes.xml",
+      "originalGitBlob": "22677a946dcf58485556fb45cac0b4cf625ccce2",
+      "bytes": 514,
+      "sha256": "a64c5a50979dbdd9c9f2c5c6aed3052fac921ea746685d9a2a7820087bb36245"
+    },
+    {
+      "path": "xiaomi-probe/src/main/res/values/strings.xml",
+      "originalGitBlob": "4c087fc137e43b2e9b950eff5b7e32ad9694456e",
+      "bytes": 171,
+      "sha256": "7718526733ef7f076c8bcac7d215fb8367715546912ef8360b2abf5ecd49040d"
+    },
+    {
+      "path": "xiaomi-probe/src/main/res/values/themes.xml",
+      "originalGitBlob": "b3189ccefead5085efd001884f8520dada9be63f",
+      "bytes": 518,
+      "sha256": "7219eefbd6931343cadfc489d68f8aad3b3b2e4c77b16d61818c9a8a92579bbd"
+    },
+    {
+      "path": "xiaomi-probe/src/main/res/xml/data_extraction_rules.xml",
+      "originalGitBlob": "d0556ce4a1fceaa0da01a1af978375728bf33c3a",
+      "bytes": 1142,
+      "sha256": "bf58b21816e547fe106699ea381c183571c61d8ed70d971f959be46cfd8b71ae"
+    },
+    {
+      "path": "xiaomi-probe/src/test/java/com/personal/fitnessledger/xiaomiprobe/EndpointPolicyTest.kt",
+      "originalGitBlob": "464d51cc2aadb5fcf24e79280cf1ae1b77621223",
+      "bytes": 3398,
+      "sha256": "26b1863ab7b79ce56203e2c38add8e17550d7805997ec34d953f77827a305df9"
+    },
+    {
+      "path": "xiaomi-probe/src/test/java/com/personal/fitnessledger/xiaomiprobe/SessionCookiesTest.kt",
+      "originalGitBlob": "913bb251d338b30cba812662fb066957097de1a2",
+      "bytes": 10561,
+      "sha256": "1f085456d3cce6d633faa65e3a3c5e35833c02b9ccd5e63b660bd96b5646be7f"
+    },
+    {
+      "path": "xiaomi-probe/src/test/java/com/personal/fitnessledger/xiaomiprobe/protocol/CloudCipherTest.kt",
+      "originalGitBlob": "31eec7eba4da5521d5cae0c6972685c65e34d444",
+      "bytes": 8422,
+      "sha256": "dfc51a13f5ec15c053dad8b6edcd5f4b3f8f6449bfc62ca7df0e3b3e7dda942c"
+    },
+    {
+      "path": "xiaomi-probe/src/test/java/com/personal/fitnessledger/xiaomiprobe/protocol/WeightRecordsTest.kt",
+      "originalGitBlob": "64c4a2c65445bf4503784f9b166574076e0c657c",
+      "bytes": 11224,
+      "sha256": "14f947740750c2ff334c08ac7054d60fff11c9f63cd32cb4330e2912092b6467"
+    }
+  ]
+}

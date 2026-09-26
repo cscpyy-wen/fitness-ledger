@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Android uses only this layer's alpha mask when tinting a themed icon. -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M24,45h6v-7h10v13h28v-13h10v7h6v18h-6v7h-10v-13h-28v13h-10v-7h-6z" />
+</vector>

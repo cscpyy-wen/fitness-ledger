@@ -1,0 +1,59 @@
+services:
+  meal-analyzer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    environment:
+      # Secrets are mounted as files; their values never enter Compose environment metadata.
+      PROXY_ACCESS_TOKEN_FILE: /run/secrets/proxy_access_token
+      VISION_API_KEY_FILE: /run/secrets/vision_api_key
+      STATE_DB_PATH: /var/lib/meal-analyzer/state.db
+    secrets:
+      - proxy_access_token
+      - vision_api_key
+    volumes:
+      # SINGLE-HOST BOUNDARY: every worker must share this local Docker volume.
+      # SQLite WAL is not supported here on NFS/SMB or across multiple Docker hosts.
+      - meal-analyzer-state:/var/lib/meal-analyzer
+    command:
+      - uvicorn
+      - meal_analyzer_server:app
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8080"
+      - --proxy-headers
+      - --workers
+      - "${UVICORN_WORKERS:-2}"
+    user: "10001:10001"
+    init: true
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,nodev,size=16m,uid=10001,gid=10001
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    ports:
+      - "127.0.0.1:8080:8080"
+    mem_limit: 512m
+    cpus: "1.0"
+    pids_limit: 128
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    restart: unless-stopped
+
+volumes:
+  meal-analyzer-state:
+    driver: local
+
+secrets:
+  proxy_access_token:
+    file: "${PROXY_ACCESS_TOKEN_SECRET_FILE:?set PROXY_ACCESS_TOKEN_SECRET_FILE}"
+  vision_api_key:
+    file: "${VISION_API_KEY_SECRET_FILE:?set VISION_API_KEY_SECRET_FILE}"

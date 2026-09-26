@@ -1,0 +1,24 @@
+The shared xiaomi-cloud-core source is GPL-3.0-or-later.
+Complete GPL v3 terms are bundled as Xiaomi-cloud-GPL-3.0.txt.
+The complete corresponding working source is provided in this project.
+
+Interoperability references:
+Misty02600 / mi-fitness-python, revision c8aef5910b4a0c50392992c86c28091a995582cc,
+GPLv3+, QR login, cryptographic wire behavior and STS exchange.
+https://github.com/Misty02600/mi-fitness-python/tree/c8aef5910b4a0c50392992c86c28091a995582cc
+
+Own-account endpoint behavior: Mori-17 / huami-health-bridge,
+verify_xiaomi_full_import.py, revision f546734b6d81ace61c7309a3a6d659d5881336f1.
+Original field meanings: shkyyy18 / mi_fitness_data_bridge,
+revision 67231fb741278c25c2fd9ac9c32c9b57afea765d.
+The last two references are interface facts, not copied AGPL code or dependencies.
+
+Local modifications: restricted HTTPS targets and token provenance, bounded
+original-value parsing, transient probe sessions, and opt-in encrypted session
+resumption for the private fitness-ledger integration. No passwords/passToken
+are retained. Integration adds local records, deduplication, backup support and
+best-effort Android JobScheduler synchronization. Not an official Xiaomi app.
+
+No warranty, official approval, complete-history guarantee or continuous
+background delivery guarantee is provided. See project docs and verification
+records. Other components retain their original copyright notices and licenses.

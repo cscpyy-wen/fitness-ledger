@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "modelId": "google-aiy-food-v1",
+  "modelVersion": "1",
+  "format": "LiteRT/TFLite",
+  "sourceUrl": "https://www.kaggle.com/models/google/aiy/tfLite/vision-classifier-food-v1/1",
+  "downloadUrl": "https://www.kaggle.com/api/v1/models/google/aiy/tfLite/vision-classifier-food-v1/1/download",
+  "modelAsset": "models/aiy_food_v1.tflite",
+  "modelBytes": 21151551,
+  "modelSha256": "03DD6D9129501F97BE00775D9E17B5D9AD13BE730149352ADB8F4CA953B7A650",
+  "licenseSpdx": "Apache-2.0",
+  "licenseAsset": "licenses/Apache-2.0.txt",
+  "licenseBytes": 13575,
+  "licenseSha256": "71C6915D04265772A0339BED47276942C678B45CC01534210EBE6984FD1AEC65",
+  "thirdPartyNoticeAsset": "licenses/LiteRT-2.2.0-THIRD_PARTY_NOTICE.txt",
+  "thirdPartyNoticeBytes": 1915758,
+  "thirdPartyNoticeSha256": "2D4D617FF3047813C1B4BFD66DC3C95B2352B401546C6E58A33B7C885091372A",
+  "input": {
+    "shape": [1, 192, 192, 3],
+    "type": "UINT8",
+    "quantizationScale": 0.0078125,
+    "quantizationZeroPoint": 128,
+    "preprocessing": "EXIF-correct, center-crop square, bilinear resize, RGB UINT8"
+  },
+  "output": {
+    "shape": [1, 2024],
+    "type": "UINT8",
+    "quantizationScale": 0.00390625,
+    "quantizationZeroPoint": 0
+  },
+  "labelsAsset": "models/aiy_food_v1_labels.csv",
+  "labelsBytes": 34210,
+  "labelsSha256": "8335571E32D893C986ADDAE14D96B6AB0157EA1F8BAD983A22C224E9EEAC6F90",
+  "nutritionMapAsset": "models/aiy_food_v1_nutrition_map.json",
+  "nutritionMapBytes": 4123,
+  "nutritionMapSha256": "3262EEB5A07E9F92DC474EB6231F97B5F6DBEBA93F7DECD46AF326DEEA7B151B",
+  "nutritionSource": {
+    "name": "USDA FoodData Central FNDDS 2021-2023",
+    "release": "2024-10-31",
+    "sourceUrl": "https://fdc.nal.usda.gov/download-datasets/",
+    "sourceArchiveSha256": "DFB06AE7DDC397CCD570B91C14B75438AB2BA39F64F22D321F61D4A52A77F3EB",
+    "rights": "US Government public domain; attribution retained"
+  },
+  "runtime": {
+    "maven": "com.google.ai.edge.litert:litert:2.2.0",
+    "baseline": "CPU interpreter with four threads"
+  },
+  "limitations": [
+    "The model classifies what a well-cropped dish resembles; it does not measure mass or nutrition.",
+    "Training data is skewed toward North American foods.",
+    "Nutrition is filled only from a small, explicit FNDDS mapping after conservative score and margin gates.",
+    "Every result remains editable and requires explicit user review before ledger commit."
+  ]
+}
