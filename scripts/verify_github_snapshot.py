@@ -20,7 +20,9 @@ for entry in manifest["files"]:
     assert hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest() == entry["originalGitBlob"], f"Original Git blob mismatch: {relative}"
 assert len(paths) == 194, "Frozen source inventory changed; review the snapshot boundary."
 
-for relative in ("README.md", "docs/DEVELOPMENT.md", "docs/RELEASE-0.6.0-alpha11.md"):
+assert (ROOT / "LICENSE").read_text(encoding="utf-8").splitlines() == (ROOT / "xiaomi-probe/LICENSE").read_text(encoding="utf-8").splitlines(), "GPL standard license text changed."
+assert "SPDX-License-Identifier: GPL-3.0-or-later" in (ROOT / "OPEN_SOURCE_NOTICE.md").read_text(encoding="utf-8")
+for relative in ("README.md", "docs/DEVELOPMENT.md", "docs/RELEASE-0.6.0-alpha11.md", "OPEN_SOURCE_NOTICE.md"):
     doc = ROOT / relative
     text = doc.read_text(encoding="utf-8")
     targets = re.findall(r"\]\(([^)]+)\)", text) + re.findall(r'<img\s+[^>]*src="([^"]+)"', text)

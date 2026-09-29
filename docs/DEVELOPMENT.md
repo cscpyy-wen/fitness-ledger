@@ -45,4 +45,4 @@ java -cp gradle/wrapper/gradle-wrapper.jar org.gradle.wrapper.GradleWrapperMain 
 
 GitHub 中新增的快照检查只验证源码文件清单、文件哈希和 README 本地链接，不替代 Android 构建、模拟器测试或真机测试。已交付 APK 的已有测试范围见发布说明。
 
-保留 [第三方声明](../THIRD_PARTY_NOTICES.md) 及各组件原许可证。小米共享实现和探针为 GPL-3.0-or-later；本次没有擅自为整个项目新增统一许可证。仓库默认私有，不应将其误称为已完成开源许可审查的公共项目。
+2026-09-29 起，本项目以 GPL-3.0-or-later 公开。完整条款见 [LICENSE](../LICENSE)，项目原创部分、组合应用和既有 alpha11 制品的适用范围见 [开源声明](../OPEN_SOURCE_NOTICE.md)。保留 [第三方声明](../THIRD_PARTY_NOTICES.md) 及各组件原许可证；不能把第三方代码、模型或数据的著作权改记为本项目所有。历史文档中“个人交付、非公开”描述的是当时状态，现以开源声明更新公开及项目许可范围。

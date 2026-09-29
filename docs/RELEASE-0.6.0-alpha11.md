@@ -6,7 +6,7 @@
 
 旧版用户先导出加密备份，再直接覆盖安装；不要卸载旧版或清除数据。如果系统提示签名冲突，请保留旧版和数据，不要用卸载解决。
 
-本版仍是 Alpha 测试版，GitHub Release 标记为 Pre-release。仓库默认私有，需要登录具有访问权限的 GitHub 账号。
+本版仍是 Alpha 测试版，GitHub Release 标记为 Pre-release。仓库自 2026-09-29 起公开，无需登录即可下载；项目采用 GPL-3.0-or-later，参见 [开源声明](../OPEN_SOURCE_NOTICE.md)。APK 未重新构建或改签，原标签及原附件保留；带根目录许可证的源码包为 `fitness-ledger-0.6.0-alpha11-open-source.zip`，额外文件的校验和见 `SHA256SUMS-open-source.txt`。
 
 ## 这版有什么变化
 
